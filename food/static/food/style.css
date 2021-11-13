@@ -23,7 +23,7 @@ footer{
     flex-direction: column;
     align-items: center;
     border-radius: 2mm;
-    background-image: url(lol.jpg);
+    background-color: grey;
 }
 
 
