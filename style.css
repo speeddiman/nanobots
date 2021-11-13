@@ -1,0 +1,41 @@
+#imagedata{
+    width: 1100px;
+    height: auto;
+    border-radius: 2mm;
+}
+
+.head{
+    padding: 5px;
+    background-image: url(lol.jpg);
+}
+
+/*Designing the footer*/
+footer{
+    text-align: center;
+}
+
+
+/* for contact us */
+#ContactUs{
+    width: auto;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2mm;
+    background-image: url(lol.jpg);
+}
+
+
+.form-shape input, .form-shape select, .form-shape textarea{
+   width: 92%;
+   padding: 0.5rem;
+   margin: 5px;
+   border-radius: 2mm;
+}
+/*Changing the color of placeholder*/
+
+::placeholder{                  
+    color:gray;
+}
+/* 
