@@ -1,0 +1,104 @@
+
+:root {
+    --green: #3BB143;
+    --red: #FF5050;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%; /*1rem = 10px*/
+    font-family: 'Varela', sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.container {
+    width: 75vw;
+    margin: 5rem auto;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.header {
+    margin-bottom: 2rem;
+}
+
+.header__text {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.signin-button {
+    font-family: 'Varela', sans-serif;
+    
+}
+
+#profile {
+    margin-top: 2rem;
+    padding: 3rem 5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#profile__image {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 15rem;
+    height: 15rem;
+}
+
+#profile__name {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+}
+
+#profile__email {
+    font-size: 1.6rem;
+    margin-top: .5rem;;
+}
+
+#signout-button {
+    font-family: inherit;
+    color: var(--red);
+    padding: 1rem;
+    margin-top: 2rem;
+    outline: none;
+    border: 1px solid var(--red);
+    background-color: #fff;
+    cursor: pointer;
+
+    transition: all .2s;
+}
+
+#signout-button:hover {
+    color: #fff;
+    background-color: var(--red);
+}
+
+#refresh-button {
+    font-family: inherit;
+    color: var(--green);
+    padding: 1rem;
+    margin-top: 2rem;
+    outline: none;
+    border: 1px solid var(--green) ;
+    background-color: #fff;
+    cursor: pointer;
+
+    transition: all .2s;
+}
+
+#refresh-button:hover {
+    color: #fff;
+    background-color: var(--green);
+}
